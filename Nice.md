@@ -18,8 +18,10 @@ git config user.name "xxx" //使用自己username
 切换分支
 
 ```cpp
-git branch -m xxx1 xxx2 // 切换为 xxx2
-git branch -vv
+git cheeckout main //切换分支
+git branch -m xxx1 xxx2 // 修改名字为 xxx2
+git branch -vv // 本地
+git branch -r //远程
 ```
 
 建议先拉取下来远端在`push`
